@@ -10,6 +10,9 @@ Feature: Test Sauce demo website
         When I visit website
         And I enter username as "standard_user" and password as "secret_sauce"
         Then I verify homepage
+        And I click on Hambuger icon menu
+        And I click on Logout text
+        Then I verify Logout successfully
 
     Scenario: Verify order the product is successfully
         When I visit website

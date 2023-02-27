@@ -14,3 +14,7 @@ And("I enter username as {string} and password as {string}", (userName, password
 Then("I verify homepage", () => {
     homePage.verifyDisplayHomePage()
 })
+
+Then("I verify Logout successfully", () => {
+    loginPage.verifyLogoutSuccessfully()
+})
