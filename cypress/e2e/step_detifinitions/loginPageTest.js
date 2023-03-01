@@ -3,12 +3,11 @@ import loginPage from "../../pages/loginPage"
 import homePage from "../../pages/homePage"
 
 When("I visit website", () => {
-    console.log("hello")
-    cy.visit('/')
+    cy.visit(Cypress.env('baseUrl'))
 })
 
-And("I enter username as {string} and password as {string}", (userName, password) => {
-    cy.login(userName, password)
+And("I enter username and password", () => {
+    cy.login()
 })
 
 Then("I verify homepage", () => {

@@ -26,7 +26,9 @@
 
 import loginPage from "../pages/loginPage"
 
-Cypress.Commands.add("login", (userName, password) => {
+Cypress.Commands.add("login", () => {
+    const userName = Cypress.env("userName")
+    const password = Cypress.env("password")
     loginPage.getUserNameInput().type(userName)
     loginPage.getPasswordInput().type(password)
     loginPage.getLoginButton().click()
