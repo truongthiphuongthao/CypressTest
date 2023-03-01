@@ -27,7 +27,7 @@
             "name": "I visit website",
             "result": {
               "status": "passed",
-              "duration": 2301000000
+              "duration": 4379000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "I enter username and password",
             "result": {
               "status": "passed",
-              "duration": 890000000
+              "duration": 2239000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "I verify homepage",
             "result": {
               "status": "failed",
-              "duration": 5594000000,
+              "duration": 5331000000,
               "error_message": "AssertionError: Timed out retrying after 5000ms: expected 'https://www.saucedemo.com/' to include '/inventory.html'\n    at homePage.verifyDisplayHomePage (cypress/pages/homePage.js:11:17)\n    at Context.eval (cypress/e2e/step_detifinitions/loginPageTest.js:14:13)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }

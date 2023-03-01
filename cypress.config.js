@@ -6,13 +6,16 @@ module.exports = defineConfig({
   projectId: "8fgqrf",
   env: {
     baseUrl: 'https://www.saucedemo.com',
-    userName: "standard_user",
-    password: "secret_sauce"
+    userName: "standard_user1",
+    password: "secret_sauce1"
   },
   e2e: {
     chromeWebSecurity: false,
     viewportWidth: 1440,
     viewportHeight: 900,
+    screenshotsFolder: "cypress/screenshot",
+    screenshotOnRunFailure: true,
+    trashAssetsBeforeRuns: true,
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber())
       allureWriter(on, config)
