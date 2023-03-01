@@ -1,6 +1,6 @@
 
 Feature: Test Sauce demo website
-
+    @TC_001
     Scenario: Login website
         When I visit website
         And I enter username as "standard_user" and password as "secret_sauce"
@@ -27,6 +27,8 @@ Feature: Test Sauce demo website
         And I click on Continue button
         And I click on Finish button
         Then I verify order the inventory is successfully with message as "THANK YOU FOR YOUR ORDER"
+
+
 
 
 

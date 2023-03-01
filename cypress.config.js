@@ -7,9 +7,13 @@ module.exports = defineConfig({
     viewportWidth: 1440,
     viewportHeight: 900,
     baseUrl: "https://www.saucedemo.com",
-    setupNodeEvents(on, config){
+    setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber())
     },
-    specPattern: "**/*.feature"
+    specPattern: "**/*.feature",
+    watchForFileChanges: true,
+    pageLoadTimeout: 150000,
+    defaultCommandTimeout: 5000,
+    video: true
   }
 });
