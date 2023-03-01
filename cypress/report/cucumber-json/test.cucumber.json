@@ -27,7 +27,7 @@
             "name": "I visit website",
             "result": {
               "status": "passed",
-              "duration": 420000000
+              "duration": 1937000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "I enter username and password",
             "result": {
               "status": "passed",
-              "duration": 791000000
+              "duration": 885000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "I verify homepage",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 44000000
             }
           }
         ]
@@ -67,7 +67,7 @@
             "name": "I visit website",
             "result": {
               "status": "passed",
-              "duration": 348000000
+              "duration": 293000000
             }
           },
           {
@@ -77,7 +77,7 @@
             "name": "I enter username and password",
             "result": {
               "status": "passed",
-              "duration": 823000000
+              "duration": 852000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "I verify homepage",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 9000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "I click on Hambuger icon menu",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 107000000
             }
           },
           {
@@ -107,7 +107,7 @@
             "name": "I click on Logout text",
             "result": {
               "status": "passed",
-              "duration": 383000000
+              "duration": 403000000
             }
           },
           {
@@ -117,7 +117,7 @@
             "name": "I verify Logout successfully",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           }
         ]
@@ -137,7 +137,7 @@
             "name": "I visit website",
             "result": {
               "status": "passed",
-              "duration": 236000000
+              "duration": 234000000
             }
           },
           {
@@ -147,7 +147,7 @@
             "name": "I enter username and password",
             "result": {
               "status": "passed",
-              "duration": 805000000
+              "duration": 821000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "I verify homepage",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 17000000
             }
           },
           {
@@ -167,7 +167,7 @@
             "name": "I order the inventory item as 'Sauce Labs Backpack' with the quantity as '1'",
             "result": {
               "status": "passed",
-              "duration": 221000000
+              "duration": 204000000
             }
           },
           {
@@ -177,7 +177,7 @@
             "name": "I verify the inventory item as 'Sauce Labs Backpack' is displaying at cart page",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 12000000
             }
           },
           {
@@ -187,7 +187,7 @@
             "name": "I click on checkout button",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 96000000
             }
           },
           {
@@ -216,7 +216,7 @@
             "name": "I fill in the checkout information form",
             "result": {
               "status": "passed",
-              "duration": 685000000
+              "duration": 700000000
             }
           },
           {
@@ -226,7 +226,7 @@
             "name": "I click on Continue button",
             "result": {
               "status": "passed",
-              "duration": 114000000
+              "duration": 115000000
             }
           },
           {
@@ -236,7 +236,7 @@
             "name": "I click on Finish button",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 104000000
             }
           },
           {
@@ -246,7 +246,7 @@
             "name": "I verify order the inventory is successfully with message as \"Thank you for your order!\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 13000000
             }
           }
         ]
