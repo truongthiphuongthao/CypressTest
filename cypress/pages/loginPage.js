@@ -18,6 +18,18 @@ class loginPage {
         this.elements.passwordInputText().should('be.visible')
         this.elements.loginButton().should('have.value', 'Login')
     }
+
+    getUserNameInput() {
+        return this.elements.userNameInput()
+    }
+
+    getPasswordInput() {
+        return this.elements.passwordInput()
+    }
+
+    getLoginButton() {
+        return this.elements.loginButton()
+    }
 }
 
 module.exports = new loginPage()

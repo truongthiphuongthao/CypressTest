@@ -8,7 +8,7 @@ When("I visit website", () => {
 })
 
 And("I enter username as {string} and password as {string}", (userName, password) => {
-    loginPage.login(userName, password)
+    cy.login(userName, password)
 })
 
 Then("I verify homepage", () => {
