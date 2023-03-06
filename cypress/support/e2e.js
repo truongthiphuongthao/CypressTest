@@ -17,7 +17,8 @@
 import './commands'
 import './cypressCommand'
 import "@shelex/cypress-allure-plugin";
-
+import 'cypress-file-upload'
 require('cypress-xpath')
+require('cypress-downloadfile/lib/downloadFileCommand')
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

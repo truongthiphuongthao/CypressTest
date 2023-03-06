@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 const cucumber = require("cypress-cucumber-preprocessor").default
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+const { downloadFile } = require('cypress-downloadfile/lib/addPlugin')
 
 module.exports = defineConfig({
   projectId: "8fgqrf",
@@ -22,6 +23,7 @@ module.exports = defineConfig({
     trashAssetsBeforeRuns: true,
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber())
+      on('task', { downloadFile })
       allureWriter(on, config)
       return config
     },

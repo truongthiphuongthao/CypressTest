@@ -2,12 +2,14 @@
   "dependencies": {
     "allure-commandline": "^2.21.0",
     "cypress": "^10.9.0",
+    "cypress-downloadfile": "^1.2.3",
     "mocha-allure-reporter": "^1.4.0",
     "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.35.2",
     "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
     "cypress-xpath": "^2.0.1"
   },
   "cypress-cucumber-preprocessor": {
