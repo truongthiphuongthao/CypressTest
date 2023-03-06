@@ -9,6 +9,10 @@ module.exports = defineConfig({
     userName: "standard_user1",
     password: "secret_sauce1"
   },
+  retries: {
+    runMode: 0,
+    openMode: 0
+  },
   e2e: {
     chromeWebSecurity: false,
     viewportWidth: 1440,
